@@ -1,0 +1,38 @@
+.arrivals__slider {
+    margin-bottom: 50px;
+}
+
+.arrivals__text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 48px 0;
+}
+
+.arrivals__text h1 {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.4px;
+}
+
+.arrivals__text a {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    color: #141718;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+}

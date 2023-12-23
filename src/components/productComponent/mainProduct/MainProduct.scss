@@ -1,0 +1,35 @@
+.mainProduct_navigate {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.mainProduct_navigate img {
+    margin: 0 15px 0 4px;
+}
+
+.mainProduct_navigate p {
+    color: #605F5F;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Button XS */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+.mainProduct_navigate h6 {
+    color: #121212;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Button XS */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 171.429% */
+}

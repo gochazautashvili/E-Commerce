@@ -1,0 +1,80 @@
+.offer__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 24px;
+    margin: 48px 0;
+
+    @media (max-width: 1160px) {
+        gap: 10px;
+        margin: 40px 0;
+    }
+
+    @media (max-width: 700px) {
+        margin: 20px 0;
+    }
+
+    @media (max-width: 640px) {
+        grid-template-columns: 1fr 1fr;
+        margin: 15px 0;
+    }
+}
+
+.offer__item {
+    max-width: 262px;
+    height: 220px;
+    padding: 48px 32px;
+    background: #F3F5F7;
+
+    @media (max-width: 1160px) {
+        padding: 32px 16px;
+    }
+
+    @media (max-width: 300px) {
+        padding: 15px 10px;
+    }
+}
+
+.offer__item_title {
+    margin: 16px 0 8px;
+    color: #141718;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+
+
+    @media (max-width: 1160px) {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+}
+
+.offer__item_text {
+    color: #6C7275;
+
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+// newPrice inner style
+
+.newPrice__inner_in_offer {
+    display: flex;
+    align-items: center;
+    height: 532px;
+
+    @media (max-width: 850px) {
+        flex-direction: column;
+        height: 932px;
+    }
+
+    @media (max-width: 550px) {
+        height: 700px;
+    }
+}

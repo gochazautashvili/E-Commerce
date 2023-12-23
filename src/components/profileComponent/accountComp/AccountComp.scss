@@ -1,0 +1,101 @@
+.accountComp {
+    width: 100%;
+}
+
+.accountComp__form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.accountComp__form h1 {
+    margin-bottom: 10px;
+}
+
+.accountComp__form_top,
+.accountComp__form_bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.accountComp__form_box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.accountComp__form_box p {
+    color: var(--neutral-04100, #6C7275);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px;
+    /* 166.667% */
+}
+
+.accountComp__form label {
+    color: var(--neutral-04100, #6C7275);
+
+    /* Hairline 2 */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    /* 100% */
+    text-transform: uppercase;
+}
+
+.accountComp__form input {
+    width: 100%;
+    height: 40px;
+    padding: 0px 16px;
+    border-radius: 6px;
+    border: 1px solid var(--Black-300, #CBCBCB);
+    background: var(--White, #FFF);
+
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.accountComp__form input::placeholder {
+    color: #6C7275;
+}
+
+.accountComp__form_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 183px;
+    height: 52px;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    border-radius: 8px;
+    background: var(--neutral-07100, #141718);
+
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+}
+
+.error {
+    color: red;
+}

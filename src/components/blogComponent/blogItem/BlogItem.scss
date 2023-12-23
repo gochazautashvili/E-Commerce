@@ -1,0 +1,40 @@
+.blogItem {
+    display: flex;
+    flex-direction: column;
+    max-width: 357px;
+}
+
+.blogItem img {
+    width: 100%;
+}
+
+.blogItem h1 {
+    margin: 24px 0 8px;
+    color: #23262F;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Headline 7 */
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+
+
+    @media (max-width: 840px) {
+        font-size: 16px;
+    }
+}
+
+.blogItem p {
+    color: #6C7275;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Caption 2 */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 166.667% */
+}

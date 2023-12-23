@@ -1,0 +1,46 @@
+.account__inner {
+    display: flex;
+    gap: 72px;
+    margin-bottom: 80px;
+
+    @media (max-width: 750px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.orderPage__inner {
+    display: flex;
+    gap: 72px;
+    margin-bottom: 80px;
+
+    @media (max-width: 940px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.wishlist__inner {
+    display: flex;
+    gap: 72px;
+    margin-bottom: 80px;
+
+    @media (max-width: 900px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.account__title {
+    margin: 80px 0;
+    text-align: center;
+
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: -1px;
+}

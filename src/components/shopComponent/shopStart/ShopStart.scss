@@ -1,0 +1,92 @@
+.shopStart__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+
+    width: 100%;
+    padding: 115px 0;
+    margin-bottom: 60px;
+
+    background-image: url('../../../assets/shop_hero_img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+    @media (max-width: 800px) {
+        gap: 16px;
+    }
+
+    @media (max-width: 700px) {
+        padding: 78px 0;
+    }
+}
+
+.shopStart__navigate {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.shopStart__navigate p {
+    color: #605F5F;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Button XS */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+.shopStart__navigate h4 {
+    color: #121212;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Button XS */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+.shopStart__title {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Headline 3 */
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px;
+    /* 107.407% */
+    letter-spacing: -1px;
+
+    @media (max-width: 800px) {
+        font-size: 40px;
+    }
+}
+
+.shopStart__text {
+    color: #121212;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body 1 */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+
+    @media (max-width: 800px) {
+        font-size: 16px;
+    }
+}

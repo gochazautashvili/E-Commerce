@@ -1,0 +1,17 @@
+.contactAbout__inner {
+    margin-bottom: 48px;
+    height: 413px;
+
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 850px) {
+        flex-direction: column;
+        height: 932px;
+        margin-bottom: 10px;
+    }
+
+    @media (max-width: 550px) {
+        height: 700px;
+    }
+}

@@ -1,0 +1,103 @@
+.profileAside {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 16px;
+
+    width: 262px;
+    height: 500px;
+
+    border-radius: 8px;
+    background: var(--neutral-02100, #F3F5F7);
+
+    @media (max-width: 750px) {
+        width: 300px;
+        height: auto;
+    }
+
+    @media (max-width: 350px) {
+        width: 262px;
+        height: auto;
+    }
+}
+
+.profileAside__account {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    align-items: center;
+}
+
+.profileAside__account h1 {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body 1 (Semi) */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    /* 160% */
+}
+
+.profileAside__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.profileAside__list a {
+    display: flex;
+    width: 230px;
+    padding: 8px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    text-decoration: none;
+    gap: 10px;
+    border-bottom: 1px solid var(--Transparent, rgba(255, 255, 255, 0.00));
+
+    color: var(--neutral-04100, #6C7275);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.profileAside__list a.active {
+    border-bottom: 1px solid var(--neutral-07100, #141718);
+    color: #141718;
+}
+
+// select
+
+.profileAside__list_select_box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.profileAside__list_select {
+    display: flex;
+    width: 100%;
+    padding: 8px 8px 8px 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid var(--neutral-04100, #6C7275);
+    background: #FFF;
+    color: var(--neutral-07100, #141718);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body 2 (Semi) */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    /* 162.5% */
+}
